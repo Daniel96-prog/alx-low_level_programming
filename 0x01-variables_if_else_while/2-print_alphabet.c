@@ -1,13 +1,11 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
 /**
  * main - print to standard error
  * Description: write function
- * Return: return 1
+ * Return: return 0
  */
 
 int main(void)
