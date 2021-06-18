@@ -13,9 +13,9 @@
 int main(void)
 {
 int n;
+int lDig;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-int lDig;
 lDig = n % 10;
 if (lDig == 0)
 {
