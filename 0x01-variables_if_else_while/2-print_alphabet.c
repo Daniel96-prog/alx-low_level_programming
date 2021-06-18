@@ -11,9 +11,9 @@
 int main(void)
 {
 int x;
-for (x = 'A'; x <= 'Z'; x++)
+for (x = 'a'; x <= 'z'; x++)
 {
-  putchar(x);
+putchar(x);
 }
 return (0);
 }
