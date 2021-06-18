@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+*main - print sizes of data types
+*Description: Very simple snippet
+*Return: 0
+*/
 int main()
 {
 char c;
