@@ -3,6 +3,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/* Main - prints positive negative and zero */
 
 int main(void)
 {
