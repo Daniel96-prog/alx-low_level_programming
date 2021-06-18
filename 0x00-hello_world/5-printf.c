@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 /**
 *main - print quote using printf
 *Description: Very simple snippet
