@@ -1,5 +1,4 @@
-#include "_putchar.h"
-
+#include "holberton.h"
 /**
  * main - check the code for ALX School students.
  *
@@ -7,9 +6,11 @@
  */
 int main(void)
 {
-for (i = 'a'; i <= 'z'; i++)
+int i;
+char text[] = "Holberton";
+for (i = 0; i < 9; i++)
 {
-_putchar(i);
+_putchar(text[i]);
 }
 _putchar('\n');
 return (0);
