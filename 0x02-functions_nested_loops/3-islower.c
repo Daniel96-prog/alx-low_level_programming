@@ -3,7 +3,8 @@ int _islower(int c)
 {
 char letter = c;
 int is_lower =0;
-for (int i ='a'; i<='z'; i++)
+int i;
+for (i ='a'; i<='z'; i++)
 {
 if (letter == i)
 {
