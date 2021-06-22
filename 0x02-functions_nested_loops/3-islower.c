@@ -2,13 +2,14 @@
 int _islower(int c)
 {
 char letter = c;
-bool is_lower =false;
+int is_lower =0;
 for (int i ='a'; i<='z'; i++)
 {
 if (letter == i)
 {
-is_lower = true;
+is_lower = 1;
 }
 }
-is_lower? return (1): return (0);
+if (is_lower == 1) return (1);
+else return (0);
 }
