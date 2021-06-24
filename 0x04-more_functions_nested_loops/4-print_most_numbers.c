@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "_putchar.c"
 /**
  *print_most_numbers - prints most except 2 and 4.
  *
