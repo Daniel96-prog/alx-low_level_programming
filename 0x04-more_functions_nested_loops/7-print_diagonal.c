@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "_putchar.c"
 /**
  *print_diagonal - prints a line n chars long.
  *@n: number of \.

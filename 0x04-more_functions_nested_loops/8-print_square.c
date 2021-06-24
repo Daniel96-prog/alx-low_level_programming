@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "_putchar.c"
 /**
  *print_square - prints square of size size.
  *@size: size of square.
