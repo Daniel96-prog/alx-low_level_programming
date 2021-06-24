@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "_putchar.c"
 /**
  *more_numbers - prints 0 - 14.
  *

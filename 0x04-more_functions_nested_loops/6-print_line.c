@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "_putchar.c"
 /**
  *print_line - prints a line n chars long.
  *@n: length of line.
