@@ -3,7 +3,14 @@
 
 int main(void)
 {
-int largest, a = 972, b = -98, c = 0;
+int largest;
+int a;
+int b;
+int c;
+  
+a = 972;
+b = -98;
+c = 0;
 
 if (a > b && a > c)
 {
