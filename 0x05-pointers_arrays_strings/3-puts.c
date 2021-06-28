@@ -1,5 +1,4 @@
 #include <string.h>
-#include "_putchar.c"
 /**
 *_puts - puts the string
 *@str: - input string
