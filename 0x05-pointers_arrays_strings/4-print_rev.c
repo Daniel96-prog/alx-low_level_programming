@@ -1,5 +1,5 @@
 #include <string.h>
-#include "_putchar.c"
+#include "holberton.h"
 /**
 *print_rev -print s astring in reverse
 *Return: void
