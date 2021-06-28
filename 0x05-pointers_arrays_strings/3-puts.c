@@ -1,4 +1,5 @@
 #include <string.h>
+#include "holberton.h"
 /**
 *_puts - puts the string
 *@str: - input string
