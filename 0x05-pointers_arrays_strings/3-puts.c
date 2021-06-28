@@ -1,4 +1,5 @@
 #include <string.h>
+#include "_putchar.c"
 /**
 *_puts - puts the string
 *@str: - input string
@@ -6,8 +7,9 @@
 */
 void _puts(char *str)
 {
-int i;
-for (i = 0; i < strlen(str); i++)
+int i, len;
+len =  strlen(str);
+for (i = 0; i < len; i++)
 {
 _putchar(str[i]);
 }
