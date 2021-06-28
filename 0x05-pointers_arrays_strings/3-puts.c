@@ -14,10 +14,9 @@ for (i = 0; i < len; i++)
 _putchar(str[i]);
 }
 _putchar('\n');
-for (i = strlen(str); i >= 0 ; i--)
+for (i = len; i >= 0 ; i--)
 {
 _putchar(str[i]);
 }
 _putchar('\n');
-return (0);
 }
