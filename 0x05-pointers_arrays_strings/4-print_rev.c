@@ -6,18 +6,12 @@
 */
 void print_rev(char *s)
 {
-int len, current_char, i, j;
+int len, i, j;
 len = strlen(s);
 j = len - 1;
 for (i = 0; i < j; i++)
 {
-current_char = s[i];
-s[i] = s[j];
-s[j] = current_char;
+putchar(s[j]);
 j--;
-}
-for (i = 0; i < len; i++)
-{
-_putchar(s[i]);
 }
 }
