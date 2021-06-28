@@ -11,7 +11,7 @@ len = strlen(s);
 j = len - 1;
 for (i = 0; i < j; i++)
 {
-putchar(s[j]);
+_putchar(s[j]);
 j--;
 }
 }
