@@ -1,4 +1,4 @@
-**
+/**
 *swap_int - swaps int values
 *
 *@a: int a
