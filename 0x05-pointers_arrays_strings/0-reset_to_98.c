@@ -1,4 +1,4 @@
-**
+/**
 * reset_to_98 - resets a value its pointing to to 98
 *@n: pointer
 *

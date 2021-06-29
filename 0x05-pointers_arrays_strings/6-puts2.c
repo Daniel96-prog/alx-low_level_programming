@@ -1,4 +1,4 @@
-include <string.h>
+#include <string.h>
 #include "_putchar.c"
 /**
 *puts2 - reverses a string
