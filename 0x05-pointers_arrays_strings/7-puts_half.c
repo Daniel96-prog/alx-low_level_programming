@@ -1,29 +1,32 @@
-#include <string.h>
-#include "_putchar.c"
+#include "holberton.h"
 /**
-*puts_half - reverses a string
+ *puts_half - prints half of a string.
 *
-*Return: void
-*@str: input string
+*Return: void.
 */
 void puts_half(char *str)
 {
-int i;
-int len = strlen(str);
-if (len % 2 == 0)
+int n, length, mid;
+length = 0;
+while (str[length] != '\0')
 {
-i = len / 2;
-for (i; i < len; i++)
+length++;
+}
+if (length % 2 == 0)
 {
-_putchar(str[i]);
+mid = length / 2;
+for (n = mid; n < length; n++)
+{
+_putchar(str[n]);
 }
 }
 else
 {
-i = (len - 1) / 2;
-for (i; i < len; i++)
+mid = (length - 1) / 2;
+for (n = mid + 1; n < length; n++)
 {
-_putchar(str[i]);
+_putchar(str[n]);
 }
 }
+_putchar('\n');
 }
