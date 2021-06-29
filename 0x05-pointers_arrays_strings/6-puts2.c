@@ -1,18 +1,21 @@
-#include <string.h>
-#include "_putchar.c"
+#include "holberton.h"
 /**
-*puts2 - reverses a string
-*
-*Return: void
-*@str: input string
+ *puts2 - prints very other character in string.
+*@str: pointer to string.
+* 
+*Return: void.
 */
 void puts2(char *str)
 {
-int len = strlen(str);
 int i;
-for (i = 0; i < len;)
+i = 0;
+while (str[i] != '\0')
+{
+if (i % 2 == 0)
 {
 _putchar(str[i]);
-i += 2;
 }
+i++;
+}
+_putchar('\n');
 }
