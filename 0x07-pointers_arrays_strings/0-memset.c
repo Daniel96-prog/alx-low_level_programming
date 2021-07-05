@@ -8,9 +8,9 @@
 */
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned char *s1;
+char *s1;
 const unsigned char c = b;
 for (s1 = s; n > 0; ++s1, --n)
-s1 = c;
+*s1 = c;
 return (s);
 }
