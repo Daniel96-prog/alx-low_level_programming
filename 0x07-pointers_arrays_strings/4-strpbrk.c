@@ -1,6 +1,6 @@
 #include "holberton.h"
 #include <string.h>
-/*
+/**
 **_strpbrk - locates in s the first occurence of bytes in accept
 *@s: string
 *@accept: string
