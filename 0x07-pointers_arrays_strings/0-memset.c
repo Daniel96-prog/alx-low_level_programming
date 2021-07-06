@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-**_memset: sets memory
+** _memset - sets memory
 *@s: pointer to the string
 *@b: char to be added
 *@n: int
