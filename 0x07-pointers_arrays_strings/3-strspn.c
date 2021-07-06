@@ -1,8 +1,9 @@
 #include "holberton.h"
-/*
-**_strspn - gets the length of accept char that are contained in s
+/**
+* _strspn - gets the length of a prefix substring
 **@s: string
 *@accept: string
+*Return: unsigned int
 */
 unsigned int _strspn(char *s, char *accept)
 {
