@@ -1,6 +1,6 @@
 #include "holberton.h"
 #include <string.h>
-/*
+/**
 * _strchr - strchr finds
 *@s: string
 *@c: char

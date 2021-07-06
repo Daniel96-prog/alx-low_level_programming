@@ -1,5 +1,5 @@
 #include "holberton.h"
-/*
+/**
 * _memcpy -copy's n bytes from memory area src  into memory area dest
 * @dest: string to be copied to
 * srcb: string to copy
