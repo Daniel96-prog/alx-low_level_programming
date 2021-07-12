@@ -3,7 +3,7 @@
 *main - prints the name of the file
 *@argv: array of string arguments
 *@argc size aof argv
-*return: 0
+*Return: 0
 */
 int main(__attribute__((unused)) int argc, char *argv[])
 {
