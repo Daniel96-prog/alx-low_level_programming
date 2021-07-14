@@ -31,7 +31,7 @@ copy = malloc((_strlen(str) + 1) * sizeof(char));
 /**
 *incase there is insufficent memory
 */
-if (!copy)
+if (!(copy))
 return (NULL);
 _copy = copy;
 while (*str)
