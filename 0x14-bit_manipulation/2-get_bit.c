@@ -1,33 +1,23 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * print_binary - converts unsigned int to binary
- * @n: unsigned int
- * Return: binary
+ * get_bit - get bit at index
+ * @n: number
+ * @index: index within binary number
+ * Return: bit 0 or 1, or -1 if error
  */
-void print_binary(unsigned long int n)
+int get_bit(unsigned long int n, unsigned int index)
 {
+	int bit;
+	unsigned int max_bits;
 
-	unsigned long int n_copy = n, mask = 1;
-	int len = 0;
+	/* validate index is not out of range */
+	max_bits = (sizeof(unsigned long int) * 8);
+	if (index > max_bits)
+		return (-1);
 
-	while (n_copy > 0)
-	{
-		len++;
-		n_copy >>= 1;
-	}
-	len -= 1;
+	/* shift number index places right to find bit */
+	bit = ((n >> index) & 1);
 
-	if (len > 0) /* create mask based on length of num */
-		mask = mask << len;
-
-	while (mask > 0) /* match each rightmost bit to see if 1 or 0 */
-	{
-		if (n & mask)
-			_putchar('1');
-		else
-			_putchar('0');
-
-		mask >>= 1;
-	}
+	return (bit);
 }
